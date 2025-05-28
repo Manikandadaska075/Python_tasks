@@ -1,3 +1,5 @@
+# Exception Handling:
+
 The try block lets you test a block of code for errors.
 
 The except block lets you handle the error.
