@@ -13,7 +13,7 @@ class Solution(object):
                 if not prefix:
                     return ""
         return prefix
-strs = list(str(input()).split())
+strs = list(str(input()).split()) # strs = ["flower","flow","flight"] Output: fl
 o =Solution()
 v = o.longestCommonPrefix(strs)
 print(v)
