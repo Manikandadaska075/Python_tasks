@@ -35,8 +35,6 @@ def print_linked_list(node):
 list1 = create_linked_list([1, 2, 4])
 list2 = create_linked_list([1, 3, 4])
 
-list1 = list(map(int,input("Enter list 1 ").split()))
-list2 = list(map(int,input("Enter list 2 ").split()))
 
 solution = Solution()
 merged = solution.mergeTwoLists(list1, list2)
